@@ -1,2 +1,5 @@
-# -Batatabit
-Batatabit helps you navigate between the different prices and trends of cryptocurrencies.
+# Batatabit
+
+Batatabit helps you navigate between the different prices and trends of cryptocurrencies. 
+
+This project covers the fundamentals of frontend development from this [course](https://platzi.com/cursos/mobile-first/) of Platzi.
