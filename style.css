@@ -30,6 +30,8 @@ html {
     font-family: 'DM Sans', sans-serif;
 }
 
+
+
 header {
     position: relative;
     display: flex;
@@ -418,6 +420,7 @@ main {
 .plans-container--slider {
     display: flex;
     height: 316px;
+    overflow: hidden;
     overflow-x: scroll;
     overscroll-behavior-x: contain; 
     scroll-snap-type: x proximity;
@@ -528,4 +531,24 @@ footer .left ul {
 .left a {
     text-decoration: none;
     color: var(--just-white);
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(transparent, var(--bitcoin-orange));
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.15);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(transparent, var(--black));
+
 }
